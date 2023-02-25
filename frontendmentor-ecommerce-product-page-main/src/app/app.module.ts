@@ -5,9 +5,11 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CartComponent } from './cart/cart.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { ProductComponent } from './product/product/product.component';
+import { ProductFeatureCardComponent } from './product/product-feature-card/product-feature-card.component';
 
 @NgModule({
-  declarations: [AppComponent, NavbarComponent, CartComponent],
+  declarations: [AppComponent, NavbarComponent, CartComponent, ProductComponent, ProductFeatureCardComponent],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],
