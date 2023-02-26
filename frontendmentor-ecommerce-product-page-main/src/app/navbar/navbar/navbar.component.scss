@@ -1,0 +1,30 @@
+.navbar {
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+  .navbar-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    .navbar-left {
+      .navbar-brand {
+        font-weight: bold;
+      }
+      .navbar-collapse {
+        display: none;
+      }
+    }
+    .navbar-right {
+      .navbar-nav {
+        display: flex;
+        gap: 20px;
+        .nav-icon img {
+          width: 25px;
+        }
+      }
+    }
+  }
+}
+.onhover-cart {
+  display: none;
+}

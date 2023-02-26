@@ -1,25 +1,32 @@
 <nav class="navbar">
     <a class="navbar-expend">
-        <img src="/assets/icons/icon-menu.svg" alt="toggle-menu">
+        <img src="./assets/icons/icon-menu.svg" alt="toggle-menu">
     </a>
-    <div class="container">
-        <div class="navbar-brand">snearkers</div>
-        <div class="navbar-collapse">
-            <ul class="navbar-nav">
-                <li class="nav-item"><a href="#" class="nav-link">Collections</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Men</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Women</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">About</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
-            </ul>
+    <div class="navbar-container">
+        <div class="navbar-left">
+            <div class="navbar-brand">snearkers</div>
+            <div class="navbar-collapse">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a href="#" class="nav-link">Collections</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Men</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Women</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
         </div>
         <div class="navbar-right">
-            <div class="cart">
-                <ec-cart></ec-cart>
-            </div>
-            <div class="avatar">
-                <img src="./assets/avatar/image-avatar.png" alt="avatar">
+            <div class="navbar-nav">
+                <div class="nav-item nav-icon cart">
+                    <img src="./assets/icons/icon-cart.svg" alt="cart">
+                </div>
+                <div class="nav-item nav-icon avatar">
+                    <img src="./assets/avatar/image-avatar.png" alt="avatar">
+                </div>
             </div>
         </div>
     </div>
 </nav>
+<div class="onhover-cart">
+    <ec-cart></ec-cart>
+</div>
