@@ -7,7 +7,33 @@
   box-shadow: none;
 }
 
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* variables */
+:root {
+  /* widths */
+  --width-mobile: 375px;
+  --width-desktop: 1440px;
+  /* colors */
+  --color-primary-orange: hsl(26, 100%, 55%);
+  --color-primary-pale-orange: hsl(25, 100%, 94%);
+  --color-secondary-very-dark-blue: hsl(220, 13%, 13%);
+  --color-secondary-dark-grayish-blue: hsl(219, 9%, 45%);
+  --color-secondary-grayish-blue: hsl(220, 14%, 75%);
+  --color-secondary-light-grayish-blue: hsl(223, 64%, 98%);
+  --color-secondary-white: hsl(0, 0%, 100%);
+  /*( BLACK with 75% opacity for lightbox background)*/
+  --color-secondary-black: hsl(0, 0%, 0%);
+}
+
 /* components */
 .btn {
+  cursor: pointer;
   background-color: orange;
 }
