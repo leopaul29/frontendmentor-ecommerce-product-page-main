@@ -1,4 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-shadow: none;
+}
+
+/* components */
 .btn {
-    background-color: orange;
+  background-color: orange;
 }
