@@ -8,6 +8,7 @@ import { NavbarComponent } from './navbar/navbar/navbar.component';
 import { ProductComponent } from './product/product/product.component';
 import { ProductFeatureCardComponent } from './product/product-feature-card/product-feature-card.component';
 import { SidenavComponent } from './navbar/sidenav/sidenav.component';
+import { ProductCarouselComponent } from './product/product-carousel/product-carousel.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { SidenavComponent } from './navbar/sidenav/sidenav.component';
     ProductComponent,
     ProductFeatureCardComponent,
     SidenavComponent,
+    ProductCarouselComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
